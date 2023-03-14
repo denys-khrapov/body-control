@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initialиscale=1.0">
+	<link rel="stylesheet" href="css/swiper-bundle.min.css">
+	<link rel="stylesheet" href="css/jquery.fancybox.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Body Control</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<!-- Full-screen section -->
+		<section class="full-screen" id="full-screen">
+			<video autoplay muted loop preload="auto" class="full-screen__video">
+				<source type="video/webm" src="video/home-full-screen.webm">
+				<source type="video/mp4" src="video/home-full-screen.mp4">
+			</video>
+			<div class="full-screen__container container">
+				<div class="full-screen__body">
+					<h1 class="full-screen__title title">Ручна<br>
+						ліпосакція</h1>
+					<p class="full-screen__text">Гарантоване зменшення об’ємів тіла до -15 см</p>
+					<a class="full-screen__link" data-fancybox data-src="#hidden-content"
+						href="javascript:;">Консультація</a>
+				</div>
+			</div>
+		</section>
+		<header class="header">
+			<div class="header__container container">
+				<div class="header__body">
+					<a href="index.html" class="header__logo">
+						<img src="img/logo.svg" alt="logo">
+					</a>
+					<div class="header__burger">
+						<span></span>
+					</div>
+					<nav class="header__menu">
+						<ul class="header__list">
+							<li>
+								<a class="header__link header__link--active" href="#">Головна</a>
+							</li>
+							<li>
+								<a class="header__link scroll-to" href="#about">Про нас</a>
+							</li>
+							<li>
+								<a class="header__link scroll-to" href="#subscription">Абонемент</a>
+							</li>
+							<li>
+								<a class="header__link scroll-to" href="#result">Результат</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<main class="content">
+			<!-- For-whom section-->
+			<section class="for-whom">
+				<div class="for-whom__container container">
+					<div class="for-whom__body">
+						<h2 class="for-whom__title title">Для кого?</h2>
+						<div class="for-whom__row">
+							<div class="for-whom__column">
+								<div class="image-holder">
+									<picture>
+										<source media="(min-width:768px)" srcset="img/for-whom-img.jpg">
+										<img src="img/for-whom-img-mobile.jpg" alt="image">
+									</picture>
+								</div>
+							</div>
+							<div class="for-whom__column">
+								<h3 class="title-italic">Ручна ліпосакція — ваш помічник у підвищенні самооцінки. </h3>
+								<h4>Допомагає тим, хто:</h4>
+								<div class="for-whom__steps steps">
+									<div class="steps__item">
+										<div class="steps__text">
+											<p>Прагне скорегувати проблемні зони, до яких не дістатися спортом та дієтами</p>
+										</div>
+									</div>
+									<div class="steps__item">
+										<div class="steps__text">
+											<p>Не може займатися фізичними навантаженнями за станом здоров'я</p>
+										</div>
+									</div>
+									<div class="steps__item">
+										<div class="steps__text">
+											<p>Хоче позбавитися набряків та целюліту</p>
+										</div>
+									</div>
+									<div class="steps__item">
+										<div class="steps__text">
+											<p>Бажає покращити загальний стан шкіри</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Definition section -->
+			<section class="definition">
+				<div class="definition__container container">
+					<div class="definition__body">
+						<h2 class="definition__title title">Що це?</h2>
+						<div class="definition__content">
+							<div class="definition__column">
+								<h3 class="definition__subtitle">Ручна ліпосакція – процедура, яка направлена на зменшення саме
+									жирових відкладень.</h3>
+								<p class="definition__text">Здійснюємо процедури за авторською методикою. Протягом сеансу ми
+									інтенсивно опрацьовуємо
+									одну зону, для того, щоб запустити процес спалювання жирових відкладень.</p>
+								<p class="definition__text">Кожна процедура завершується обгортанням з термокремом.</p>
+								<div class="definition__row">
+									<div class="definition__item"><span>медовий масаж</span></div>
+									<div class="definition__item"><span>вакуумний масаж</span></div>
+									<div class="definition__item"><span>ручний масаж</span></div>
+									<div class="definition__item"><span>лімфодренажний масаж</span></div>
+								</div>
+							</div>
+							<div class="definition__column">
+								<div class="image-holder">
+									<picture>
+										<source media="(min-width:768px)" srcset="img/definition-img.jpg">
+										<img src="img/definition-img-mobile.jpg" alt="image">
+									</picture>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Benefits section -->
+			<section class="benefits">
+				<div class="benefits__container container">
+					<div class="benefits__body">
+						<h2 class="benefits__title title">Переваги:</h2>
+						<div class="benefits__row">
+							<div class="benefits__item"><span>гарантований результат</span></div>
+							<div class="benefits__item"><span>відсутність болісного реабілітаційного періоду</span></div>
+							<div class="benefits__item"><span>підтримка 24/7</span></div>
+							<div class="benefits__item"><span>сучасна альтернатива<br>
+									хірургічного втручання</span></div>
+							<div class="benefits__item"><span>не шкодить здоров'ю </span></div>
+							<div class="benefits__item"><span>індивідуальний підхід<br>
+									до кожного клієнта </span></div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- CTA section -->
+			<section class="cta">
+				<div class="cta__container container">
+					<div class="cta__body">
+						<div class="cta__row">
+							<div class="cta__column">
+								<div class="image-holder">
+									<picture>
+										<source media="(min-width:768px)" srcset="img/cta-img.png">
+										<img src="img/cta-img-mobile.png" alt="image">
+									</picture>
+								</div>
+							</div>
+							<div class="cta__column">
+								<div class="cta__titles">
+									<h3>Отримайте <span>безкоштовну</span></h3>
+									<h3>консультацію спеціаліста</h3>
+								</div>
+								<form class="form" action="#">
+									<div class="form__input form__input--name">
+										<input type="text" placeholder="Ваше ім'я">
+									</div>
+									<div class="form__input form__input--phone">
+										<input type="text" placeholder="Контактний телефон" required>
+									</div>
+									<div class="form__select">
+										<select name="" id="">
+											<option value="Як з вами зв'язатись?">Як з вами зв'язатись?</option>
+											<option value="Telegram">Telegram</option>
+											<option value="WhatsApp">WhatsApp</option>
+											<option value="Viber">Viber</option>
+										</select>
+									</div>
+									<button class="form__btn" type="submit">Залишити заявку</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Works section -->
+			<section class="works">
+				<div class="works__container container">
+					<div class="works__body">
+						<h2 class="works__title title">Як це працює:</h2>
+						<div class="works__row">
+							<div class="works__column">
+								<div class="image-holder">
+									<picture>
+										<source media="(min-width:768px)" srcset="img/works-img.jpg">
+										<img src="img/works-img-mobile.jpg" alt="image">
+									</picture>
+								</div>
+							</div>
+							<div class="works__column">
+								<h3 class="works__subtitle">Всього 4 кроки на шляху до ідеального тіла: </h3>
+								<div class="works__steps steps">
+									<div class="steps__item">
+										<div class="steps__text">
+											<p>Залиште заявку<br>
+												на нашому сайті</p>
+										</div>
+									</div>
+									<div class="steps__item">
+										<div class="steps__text">
+											<p>Отримайте безкоштовну<br> консультацію </p>
+										</div>
+									</div>
+									<div class="steps__item">
+										<div class="steps__text">
+											<p>Фахівець підбере процедури з<br> урахуванням ваших особливостей</p>
+										</div>
+									</div>
+									<div class="steps__item">
+										<div class="steps__text">
+											<p>-15 см за три тижня</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Price section -->
+			<section class="price" id="subscription">
+				<div class="price__container container">
+					<div class="price__body">
+						<div class="price__title title">Вартість:</div>
+						<div class="price__row">
+							<div class="price__column">
+								<h3 class="price__subtitle">Одна процедура</h3>
+								<p class="price__text">Для тих, хто хоче спробувати процедуру
+									та переконатися, що все працює</p>
+								<span class="price__session">1 сеанс</span>
+								<div class="price__footer">
+									<a class="price__btn" data-fancybox data-src="#hidden-content"
+										href="javascript:;">записатись</a>
+									<div class="price__money money">
+										<span class="money__full">800 грн</span>
+										<span class="money__discount">400 грн</span>
+									</div>
+								</div>
+							</div>
+							<div class="price__column">
+								<h3 class="price__subtitle">Курс</h3>
+								<p class="price__text">Для тих, хто хоче отримати результат
+									від процедур</p>
+								<span class="price__session">10 сеансів + 1 у подарунок</span>
+								<div class="price__footer">
+									<a class="price__btn" data-fancybox data-src="#hidden-content"
+										href="javascript:;">записатись</a>
+									<div class="price__money money">
+										<span class="money__full">8000 грн</span>
+										<span class="money__discount">5100 грн</span>
+									</div>
+								</div>
+							</div>
+							<div class="price__column">
+								<div class="image-holder">
+									<img src="img/price-img.jpg" alt="image">
+									<picture>
+										<source media="(min-width:768px)" srcset="img/price-img.jpg">
+										<img src="img/price-img-mobile.jpg" alt="image">
+									</picture>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Result section -->
+			<section class="result" id="result">
+				<div class="result__container container">
+					<div class="result__body">
+						<h2 class="result__title title">Результати</h2>
+						<div class="swiper" id="swiper-js">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<div class="image-holder">
+										<img src="img/result-img-1.jpg" alt="image">
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="image-holder">
+										<img src="img/result-img-2.jpg" alt="image">
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="image-holder">
+										<img src="img/result-img-3.jpg" alt="image">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-button-prev"></div>
+						<div class="swiper-button-next"></div>
+						<div class="swiper-scrollbar" id="scrollbar-js"></div>
+					</div>
+				</div>
+			</section>
+			<!-- Reviews section -->
+			<section class="reviews">
+				<div class="reviews__container container">
+					<div class="reviews__body">
+						<h2 class="reviews__title title">Відгуки</h2>
+						<div class="reviews__row">
+							<div class="reviews__item">
+								<div class="reviews__image-holder">
+									<img src="img/reviews-img-1.png" alt="person">
+								</div>
+								<div class="reviews__content">
+									<h3 class="reviews__name">Тетяна</h3>
+									<p class="reviews__text">Щоразу, коли я відвідую цей центр, перше, що впадає мені в око, - це
+										приємні дівчата на
+										ресепшні, які завжди усміхнені та ввічливі. Це налаштовує на позитивний лад перед початком
+										будь-якої процедури. Мені не страшно віддавати себе в руки фахівців Body control, оскільки
+										рівень їхньої кваліфікації не викликає в мене сумнівів.</p>
+									<span class="reviews__social">@tanyaparfileva</span>
+								</div>
+							</div>
+							<div class="reviews__item">
+								<div class="reviews__image-holder">
+									<img src="img/reviews-img-2.png" alt="person">
+								</div>
+								<div class="reviews__content">
+									<h3 class="reviews__name">Лариса</h3>
+									<p class="reviews__text">Велике спасибі майстрам за складну, але на совість виконану роботу!
+										Особливо за індивідуальний підхід і швидкість. Обов`язково прийду до Вас ще не раз!</p>
+									<span class="reviews__social">@lyalya_bounty</span>
+								</div>
+							</div>
+							<div class="reviews__item">
+								<div class="reviews__image-holder">
+									<img src="img/reviews-img-3.png" alt="person">
+								</div>
+								<div class="reviews__content">
+									<h3 class="reviews__name">Слава</h3>
+									<p class="reviews__text">Була в Body control на ручній ліпосакції. У дівчаток просто золоті
+										руки! Зробили мені прекрасну фігуру.</p>
+									<span class="reviews__social">@babaslavka</span>
+								</div>
+							</div>
+							<div class="reviews__item">
+								<div class="reviews__image-holder">
+									<img src="img/reviews-img-4.png" alt="person">
+								</div>
+								<div class="reviews__content">
+									<h3 class="reviews__name">Галина</h3>
+									<p class="reviews__text">Відвідувала ручний масаж, все пройшло чітко за часом, дякую що
+										привели до ладу моє тіло.</p>
+									<span class="reviews__social">@galyna_naumenko</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- About section -->
+			<section class="about" id="about">
+				<div class="about__container container">
+					<div class="about__body">
+						<h2 class="about__title title">Про нас</h2>
+						<div class="about__row">
+							<div class="about__column">
+								<div class="about__image-holder">
+									<picture>
+										<source media="(min-width:768px)" srcset="img/about-img.jpg">
+										<img src="img/about-img-mobile.jpg" alt="image">
+									</picture>
+								</div>
+							</div>
+							<div class="about__column">
+								<h3 class="about__subtitle">Body control – мережа центрів
+									з корекції фігури родом з Харкова.</h3>
+								<p class="about__text">Ми спеціалізуємося на наданні високоякісних послуг з корекції фігури,
+									допомагаючи нашим клієнтам досягати своїх цілей та залишатися здоровими й красивими.</p>
+								<p class="about__text">Ми використовуємо авторську методику ручної ліпосакції, яка поєднала у
+									собі найкращі техніки корегування окремих зон.</p>
+								<p class="about__text">У наших центрах панує дружня атмосфера, яка допоможе вам почуватися
+									комфортно та впевнено. А професійні майстри складуть для вас індивідуальну програму для
+									досягнення бажаного результату.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Contacts section -->
+			<section class="contacts">
+				<div class="contacts__container container">
+					<div class="contacts__body">
+						<h2 class="contacts__title title">Контакти</h2>
+						<div class="contacts__row">
+							<div class="contacts__column">
+								<div class="contacts__item">
+									<h3 class="contacts__subtitle">Харків</h3>
+									<ul>
+										<li class="contacts__marker">вул. Клочковска, 99а </li>
+										<li class="contacts__phone"><a href="tel:+38097011770">0983131300</a></li>
+									</ul>
+								</div>
+								<div class="contacts__item">
+									<h3 class="contacts__subtitle">Київ</h3>
+									<ul>
+										<li class="contacts__marker"><a href="https://goo.gl/maps/nTMeTirTisXQNrut5"
+												target="_blank">Правий берег
+												вул. Нивская, 4г</a></li>
+										<li class="contacts__phone"><a href="tel:+38097011770">0509500101</a></li>
+										<li class="contacts__marker"><a href="https://goo.gl/maps/7U96pgJmXB7U5Xbp9"
+												target="_blank">Срібнокільска, 1</a></li>
+										<li class="contacts__phone"><a href="tel:+38097011770">097011770</a></li>
+									</ul>
+								</div>
+								<div class="contacts__item">
+									<h3 class="contacts__subtitle">Одеса</h3>
+									<ul>
+										<li class="contacts__marker"><a href="https://goo.gl/maps/49XBMMwXvEySPhu16"
+												target="_blank">вул. Каманіна, 16а</a></li>
+										<li class="contacts__phone"><a href="tel:+380977490707">0977490707</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="contacts__column">
+								<div class="maps">
+									<iframe
+										src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2564.4123248729425!2d36.21731233718962!3d50.00362649421868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4127a11c47f0529d%3A0x71406e9da1b666ae!2z0JrQu9C-0YfQutC-0LLRgdC60LDRjyDRg9C7LiwgOTnQkCwg0KXQsNGA0YzQutC-0LIsINCl0LDRgNGM0LrQvtCy0YHQutCw0Y8g0L7QsdC70LDRgdGC0YwsIDYxMDAw!5e0!3m2!1sru!2sua!4v1678708739665!5m2!1sru!2sua"
+										width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+										referrerpolicy="no-referrer-when-downgrade"></iframe>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container container">
+				<div class="footer__body">
+					<a class="footer__logo" href="index.html">
+						<img src="img/logo-black.svg" alt="logo">
+					</a>
+					<nav class="footer__menu">
+						<ul class="footer__list">
+							<li>
+								<a class="footer__link footer__link--active scroll-to" href="#full-screen">Головна</a>
+							</li>
+							<li>
+								<a class="footer__link scroll-to" href="#about">Про нас</a>
+							</li>
+							<li>
+								<a class="footer__link scroll-to" href="#subscription">Абонемент</a>
+							</li>
+							<li>
+								<a class="footer__link scroll-to" href="#result">Результат</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<!-- Modal -->
+	<div style="display: none;" id="hidden-content">
+		<!-- Modal-form block -->
+		<div class="modal-form">
+			<h3 class="modal-form__title">Заповніть форму</h3>
+			<p class="modal-form__text">Наш менеджер з вами зв'яжеться якнайшвидше</p>
+			<form class="form" action="#">
+				<div class="form__input form__input--name">
+					<input type="text" placeholder="Ваше ім'я">
+				</div>
+				<div class="form__input form__input--phone">
+					<input type="text" placeholder="Контактний телефон" required>
+				</div>
+				<div class="form__select">
+					<select name="" id="">
+						<option value="Як з вами зв'язатись?">Як з вами зв'язатись?</option>
+						<option value="Telegram">Telegram</option>
+						<option value="WhatsApp">WhatsApp</option>
+						<option value="Viber">Viber</option>
+					</select>
+				</div>
+				<button class="form__btn" type="submit">Залишити заявку</button>
+			</form>
+		</div>
+	</div>
+	<script src="js/jquery-3.6.4.min.js"></script>
+	<script src="js/swiper-bundle.min.js"></script>
+	<script src="js/jquery.fancybox.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
