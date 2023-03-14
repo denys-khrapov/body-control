@@ -321,7 +321,7 @@ body {
 	font-family: 'PlayfairDisplay';
 	font-weight: 700;
 	font-size: 73px;
-	line-height: 73px;
+	line-height: 102px;
 	color: #B18373;
 }
 
@@ -603,6 +603,11 @@ body {
 	line-height: 38px;
 	font-weight: 400;
 	margin: 0px 0px 24px 0px;
+}
+
+.works .steps__text>p {
+	font-size: 18px;
+	line-height: 29px;
 }
 
 /* -- Price styles----------------------------- */
@@ -1678,6 +1683,11 @@ body {
 
 	.works__subtitle {
 		margin: 0px 0px 16px 0px;
+	}
+
+	.works .steps__text>p {
+		font-size: 16px;
+		line-height: 26px;
 	}
 
 	/* -- Price styles----------------------------- */
