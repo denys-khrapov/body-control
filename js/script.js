@@ -36,9 +36,9 @@ $(document).ready(function () {
 		return false;
 	});
 });
-if (window.location.href.indexOf('index.html') !== -1) {
-	// Код для работы с Swiper на главной странице
-	// Reviews slider
+
+if (document.querySelector('.swiper')) {
+	// Код для работы с Swiper на странице
 	new Swiper('.swiper', {
 		navigation: {
 			nextEl: '.swiper-button-next',
@@ -50,6 +50,4 @@ if (window.location.href.indexOf('index.html') !== -1) {
 		},
 		loop: true
 	});
-
 }
-
